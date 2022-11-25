@@ -61,7 +61,7 @@ namespace PelcanApp.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PelcanApp;component/windows/wnuevocliente.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PelcanApp;V1.0.0.0;component/windows/wnuevocliente.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\wNuevoCliente.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

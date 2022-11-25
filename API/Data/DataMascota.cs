@@ -12,47 +12,49 @@ namespace API.Data
         public static Respuesta MostrarMascotas()
         {
             Respuesta respuesta = new Respuesta();
-            string consulta = "SELECT * FROM Mascotas";
+            string consulta = "SELECT * FROM Mascota";
 
             using (SqlConnection con = new SqlConnection(Conexion.Conexion.cadenaConexion))
             {
-                try
+                //try
+                //{
+                con.Open();
+                SqlCommand cmd = new SqlCommand(consulta, con);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
                 {
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand(consulta, con);
-                    SqlDataReader reader = cmd.ExecuteReader();
-                    while (reader.Read())
+                    respuesta.ListaObjetos.Add(new Mascota()
                     {
-                        respuesta.ListaObjetos.Add(new Mascota()
-                        {
-                            IDMascota = (int)reader["Id"],
-                            Nombre = (string)reader["Nombre"],
-                            IDRaza = (int)reader["IdRaza"],
-                            FechaNacimiento = (DateTime)reader["FechaNacimiento"],
-                            Peso = (float)reader["Peso"]
-                        });
-                    }
+                        IDMascota = (int)reader["Id"],
+                        Nombre = (string)reader["Nombre"],
+                        IDRaza = (int)reader["IdRaza"],
+                        FechaNacimiento = (DateTime)reader["FechaNacimiento"],
+                        Peso = (double)reader["Peso"],
+                        IdCliente = (int)reader["IdCliente"]
 
-                    //Adaptamos la respuesta al número de datos recibidos
-                    if (respuesta.ListaObjetos.Count > 0)
-                    {
-                        respuesta.MensajeRespuesta = $"{respuesta.ListaObjetos.Count} Mascotas listadas";
-
-                    }
-                    else
-                    {
-                        respuesta.MensajeRespuesta = "No hay Mascotas que mostrar";
-                        respuesta.Estado = false;
-                    }
-
-
-                    con.Close();
+                    });
                 }
-                catch (Exception ex)
+
+                //Adaptamos la respuesta al número de datos recibidos
+                if (respuesta.ListaObjetos.Count > 0)
                 {
+                    respuesta.MensajeRespuesta = $"{respuesta.ListaObjetos.Count} Mascotas listadas";
 
-                    respuesta = Traza.CrearTraza(ex);
                 }
+                else
+                {
+                    respuesta.MensajeRespuesta = "No hay Mascotas que mostrar";
+                    respuesta.Estado = false;
+                }
+
+
+                con.Close();
+                //}
+                //catch (Exception ex)
+                //{
+
+                //    respuesta = Traza.CrearTraza(ex);
+                //}
 
                 return respuesta;
             }
@@ -83,7 +85,8 @@ namespace API.Data
                             Nombre = (string)fila["Nombre"],
                             IDRaza = (int)fila["IdRaza"],
                             FechaNacimiento = (DateTime)fila["FechaNacimiento"],
-                            Peso = (float)fila["Peso"]
+                            Peso = (float)fila["Peso"],
+                            IdCliente = (int)fila["IdCliente"]
                         });
                     }
 
@@ -156,6 +159,7 @@ namespace API.Data
                     cmd.Parameters.AddWithValue("@idRaza", mascota.IDRaza);
                     cmd.Parameters.AddWithValue("@fechaNacimiento", mascota.FechaNacimiento);
                     cmd.Parameters.AddWithValue("@peso", mascota.Peso);
+                    cmd.Parameters.AddWithValue("@idCliente", mascota.IdCliente);
 
                     con.Open();
                     int res = cmd.ExecuteNonQuery();
@@ -189,6 +193,7 @@ namespace API.Data
                     cmd.Parameters.AddWithValue("@idRaza", mascota.IDRaza);
                     cmd.Parameters.AddWithValue("@fechaNacimiento", mascota.FechaNacimiento);
                     cmd.Parameters.AddWithValue("@peso", mascota.Peso);
+                    cmd.Parameters.AddWithValue("@idCliente", mascota.IdCliente);
 
                     con.Open();
                     int res = cmd.ExecuteNonQuery();

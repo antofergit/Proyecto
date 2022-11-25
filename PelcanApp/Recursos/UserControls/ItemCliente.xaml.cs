@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using PelcanApp.Pages;
 using API.Data;
 using API.Models;
+using System.Linq;
 
 namespace PelcanApp.Recursos.UserControls
 {
@@ -40,12 +41,7 @@ namespace PelcanApp.Recursos.UserControls
 
         private void Image_GotFocus(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("hola");
 
-            Image imagen = e.Source as Image;
-
-            BitmapImage image = new BitmapImage(new Uri("Recursos/imagenes/dog.jpg", UriKind.Relative));
-            imagen.Source = image;
         }
 
         private void imgCortar_LostFocus(object sender, RoutedEventArgs e)
@@ -139,11 +135,28 @@ namespace PelcanApp.Recursos.UserControls
         {
             if (ClickEnPanel)
             {
-                //Obtenemos el cliente clicado
-                Respuesta respuesta = DataClientes.MostrarClienteID((int)Tag);
-                Cliente cliente = respuesta.ListaObjetos[0] as Cliente;
 
-                //Obtenemos la pagina de Cliente mascotas
+                //limpiamos el listado de mascotas
+                Padre.stackListaMascotas.Children.Clear();
+
+                //Obtenemos el cliente clicado
+                Respuesta respuestaCliente = DataClientes.MostrarClienteID((int)Tag);
+                Cliente cliente = respuestaCliente.ListaObjetos[0] as Cliente;
+
+                //Obtenemos las mascotas del cliente clicado
+                Respuesta respuestaMascotas = DataMascota.MostrarMascotas();
+                List<Mascota> listaMascotas = new List<Mascota>();
+                foreach (var item in respuestaMascotas.ListaObjetos)
+                {
+                    listaMascotas.Add((Mascota)item);
+                }
+
+                List<Mascota> listaMascotasDeCliente = (from d in listaMascotas where d.IdCliente == (int)Tag select d).ToList();
+
+
+
+                
+                //Rellenamos los datos del cliente seleccionado
                 Padre.datosClienteLine1.Content = $"DNI:  {cliente.DNI} Telefono:  {cliente.Telefono}";
                 Padre.datosClienteLine2.Content = $"Nombre:  {cliente.NombreCompleto}";
                 Padre.datosClienteLine3.Content = $"Direccion:  {cliente.Direccion}";
@@ -151,6 +164,23 @@ namespace PelcanApp.Recursos.UserControls
                 Padre.datosClienteLine5.Content = $"Codigo Postal:  {cliente.CodigoPostal} Provincia:  {cliente.Provincia}";
                 Padre.datosClienteLine6.Content = $"Correo:  {cliente.Correo}";
                 Padre.datosClienteLine7.Content = $"Fecha de Alta:  {cliente.FechaAlta}";
+
+                //Creamos tantos itemMascotas como mascotas tenga registradas el cliente seleccionado
+                foreach (var item in listaMascotasDeCliente)
+                {
+                    ItemMascota itemMascota = new ItemMascota();
+                    itemMascota.lblNombreMascota.Content = item.Nombre;
+
+                    //Obtenemos la raza de la mascota
+                    Respuesta respuestaRaza = DataRaza.MostrarRazaID(item.IDRaza);
+                    
+                    var raza = respuestaRaza.ListaObjetos[0] as Raza;
+                    itemMascota.lblRazaMascota.Content = raza.Nombre;
+                    Padre.stackListaMascotas.Children.Add(itemMascota);
+                }
+
+
+                
             }
             else
             {

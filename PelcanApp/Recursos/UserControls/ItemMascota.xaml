@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="PelcanApp.Recursos.UserControls.ItemMascota"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PelcanApp.Recursos.UserControls"
+             mc:Ignorable="d" d:DesignWidth="752.491" d:DesignHeight="30">
+
+    <Grid x:Name="gridMascota"
+        Height="30"
+        Background="{StaticResource Color.Gris.Claro}"
+        Cursor="Hand">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" x:Name="imgMascota" Source="{StaticResource IconoPerro.Blanco}" Margin="5"/>
+        <Label Grid.Column="1" x:Name="lblRazaMascota" Content="Raza de la mascota"
+               VerticalAlignment="Center" Foreground="{StaticResource Color.Blanco}"/>
+        <Label Grid.Column="2" x:Name="lblNombreMascota" Content="Nombre de la mascota"
+               VerticalAlignment="Center" Foreground="{StaticResource Color.Blanco}"/>
+        <Image Grid.Column="3" x:Name="btnOpcionesMascotas" Source="{StaticResource IconoConfiguracion.Blanco}" Margin="6" />
+    </Grid>
+
+</UserControl>

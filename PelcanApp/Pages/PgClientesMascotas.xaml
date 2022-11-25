@@ -41,7 +41,15 @@
 
             <!--Mascotas del cliente-->
             <Grid Grid.Row="1">
+                <StackPanel Margin="0,0,0,5">
+                    <Label  Background="{StaticResource Color.Oscuro}" Foreground="{StaticResource Color.Blanco}">Mascotas</Label>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel x:Name="stackListaMascotas" Margin="10"/>
+                    </ScrollViewer>
+                </StackPanel>
                 
+
+
             </Grid>
 
             <!--Informacion de mascota y acciones-->

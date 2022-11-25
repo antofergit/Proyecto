@@ -18,3 +18,83 @@ Fecha: 19/11/2022 22:40:22
 Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 141
 Mensaje de error: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
 
+Fecha: 25/11/2022 20:15:08
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 20:15:10
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 20:15:10
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:04:34
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:04:35
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:04:36
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:04:37
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:04:37
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:04:38
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:04:38
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:05:27
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:08:56
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 23
+Mensaje de error: El nombre de objeto 'Mascotas' no es válido.
+
+Fecha: 25/11/2022 21:11:04
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 26
+Mensaje de error: Unable to cast object of type 'System.Double' to type 'System.Single'.
+
+Fecha: 25/11/2022 21:11:13
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 26
+Mensaje de error: Unable to cast object of type 'System.Double' to type 'System.Single'.
+
+Fecha: 25/11/2022 21:12:21
+Error en método:    at API.Data.DataMascota.MostrarMascotas() in C:\Users\antof\source\repos\PelcanApp\API\Data\DataMascota.cs:line 26
+Mensaje de error: Unable to cast object of type 'System.Double' to type 'System.Single'.
+
+Fecha: 25/11/2022 21:22:08
+Error en método:    at API.Data.DataRaza.MostrarRazaID(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataRaza.cs:line 78
+Mensaje de error: Unable to cast object of type 'System.Double' to type 'System.Int32'.
+
+Fecha: 25/11/2022 21:25:11
+Error en método:    at API.Data.DataRaza.MostrarRazaID(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataRaza.cs:line 78
+Mensaje de error: Unable to cast object of type 'System.Double' to type 'System.Int32'.
+
+Fecha: 25/11/2022 21:29:49
+Error en método:    at API.Data.DataRaza.MostrarRazaID(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataRaza.cs:line 78
+Mensaje de error: Unable to cast object of type 'System.Double' to type 'System.Int32'.
+
+Fecha: 25/11/2022 21:36:16
+Error en método:    at API.Data.DataRaza.MostrarRazaID(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataRaza.cs:line 78
+Mensaje de error: Column 'Img' does not belong to table .
+
+Fecha: 25/11/2022 21:39:56
+Error en método:    at API.Data.DataRaza.MostrarRazaID(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataRaza.cs:line 78
+Mensaje de error: Column 'Img' does not belong to table .
+

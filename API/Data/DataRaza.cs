@@ -27,7 +27,7 @@ namespace API.Data
                         {
                             IDRaza = (int)reader["Id"],
                             Nombre = (string)reader["Nombre"],
-                            Imagen = (string)reader["Img"]
+                            Img = (string)reader["Img"]
                         });
                     }
 
@@ -79,7 +79,7 @@ namespace API.Data
                         {
                             IDRaza = (int)fila["Id"],
                             Nombre = (string)fila["Nombre"],
-                            Imagen = (string)fila["Img"]
+                            Img = (string)fila["Img"]
                         });
                     }
 
@@ -149,7 +149,7 @@ namespace API.Data
                     SqlCommand cmd = new SqlCommand("ProcedureNuevoRaza", con);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Nombre", raza.Nombre);
-                    cmd.Parameters.AddWithValue("@img", raza.Imagen);
+                    cmd.Parameters.AddWithValue("@img", raza.Img);
 
                     con.Open();
                     int res = cmd.ExecuteNonQuery();
@@ -180,7 +180,7 @@ namespace API.Data
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Id", raza.IDRaza);
                     cmd.Parameters.AddWithValue("@Nombre", raza.Nombre);
-                    cmd.Parameters.AddWithValue("@img", raza.Imagen);
+                    cmd.Parameters.AddWithValue("@img", raza.Img);
 
                     con.Open();
                     int res = cmd.ExecuteNonQuery();

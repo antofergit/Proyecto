@@ -105,3 +105,5 @@ C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Pages\Pg
 C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Pages\PgProductosServicios.baml
 C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Windows\wNuevoCliente.g.cs
 C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Windows\wNuevoCliente.baml
+C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Recursos\UserControls\ItemMascota.g.cs
+C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Recursos\UserControls\ItemMascota.baml

@@ -60,7 +60,7 @@
             </Button>
 
             <!--BOTÓN CLIENTES/MASCOTAS*******************************************************************************************-->
-            <Button x:Name="btnClientesMascotas" Style="{DynamicResource styleBtnMenu}" Click="btnClientesMascotas_Click">
+            <Button x:Name="btnClientesMascotas" Style="{DynamicResource styleBtnMenu}" Click="btnClientesMascotas_Click" Cursor="Hand">
                 <WrapPanel Margin="10,0,0,0">
 
                     <!--Icono-->

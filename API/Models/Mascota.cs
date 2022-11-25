@@ -8,6 +8,7 @@ namespace API.Models
     {
         public int IDMascota { get; set; }
         public string Nombre { get; set; }
+        public int IdCliente { get; set; }
         public int IDRaza { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public double Peso { get; set; }
