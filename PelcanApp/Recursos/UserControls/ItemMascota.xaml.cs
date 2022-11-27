@@ -22,5 +22,18 @@ namespace PelcanApp.Recursos.UserControls
         {
             InitializeComponent();
         }
+
+        private void btnOpcionesMascotas_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Image btn = (Image)sender;
+            btn.Source = Herramientas.DameImagen(Properties.Resources.menu_down_corporativo);
+
+        }
+
+        private void btnOpcionesMascotas_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Image btn = (Image)sender;
+            btn.Source = Herramientas.DameImagen(Properties.Resources.menu_down_blanco);
+        }
     }
 }

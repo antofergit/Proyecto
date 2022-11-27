@@ -21,7 +21,7 @@
                VerticalAlignment="Center" Foreground="{StaticResource Color.Blanco}"/>
         <Label Grid.Column="2" x:Name="lblNombreMascota" Content="Nombre de la mascota"
                VerticalAlignment="Center" Foreground="{StaticResource Color.Blanco}"/>
-        <Image Grid.Column="3" x:Name="btnOpcionesMascotas" Source="{StaticResource IconoConfiguracion.Blanco}" Margin="6" />
+        <Image Grid.Column="3" x:Name="btnOpcionesMascotas" Margin="6" MouseEnter="btnOpcionesMascotas_MouseEnter" MouseLeave="btnOpcionesMascotas_MouseLeave" />
     </Grid>
 
 </UserControl>

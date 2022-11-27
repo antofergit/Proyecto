@@ -109,7 +109,7 @@ namespace PelcanApp.Recursos.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PelcanApp;V1.0.0.0;component/recursos/usercontrols/itemcliente.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PelcanApp;component/recursos/usercontrols/itemcliente.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Recursos\UserControls\ItemCliente.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

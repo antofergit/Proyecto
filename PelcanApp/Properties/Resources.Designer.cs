@@ -119,5 +119,25 @@ namespace PelcanApp.Properties {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] menu_down_blanco {
+            get {
+                object obj = ResourceManager.GetObject("menu_down_blanco", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] menu_down_corporativo {
+            get {
+                object obj = ResourceManager.GetObject("menu_down_corporativo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

@@ -98,3 +98,7 @@ Fecha: 25/11/2022 21:39:56
 Error en método:    at API.Data.DataRaza.MostrarRazaID(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataRaza.cs:line 78
 Mensaje de error: Column 'Img' does not belong to table .
 
+Fecha: 27/11/2022 19:03:48
+Error en método:    at API.Data.DataClientes.AgregarCliente(Cliente cliente) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataClientes.cs:line 188
+Mensaje de error: El procedimiento o la función 'ProcedureNuevoCliente' esperaba el parámetro '@provincia', que no se ha especificado.
+

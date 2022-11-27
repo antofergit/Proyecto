@@ -31,33 +31,33 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <StackPanel Grid.Column="0" Margin="5">
-                        <Label>DNI</Label>
-                        <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                        <Label>DNI*</Label>
+                        <TextBox x:Name="txtDNI" Tag="DNI" Margin="5,0,5,5" Padding="5"></TextBox>
                     </StackPanel>
                     <StackPanel Grid.Column="1" Margin="5">
-                        <Label>Telefono</Label>
-                        <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                        <Label>Teléfono*</Label>
+                        <TextBox x:Name="txtTelefono" Tag="Teléfono" Margin="5,0,5,5" Padding="5"></TextBox>
                     </StackPanel>
                 </Grid>
 
                 <StackPanel Grid.Row="1" Margin="5">
-                    <Label>Nombre</Label>
-                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    <Label>Nombre*</Label>
+                    <TextBox x:Name="txtNombre" Tag="Nombre" Margin="5,0,5,5" Padding="5"></TextBox>
                 </StackPanel>
 
                 <StackPanel Grid.Row="2" Margin="5">
-                    <Label>Apellidos</Label>
-                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    <Label>Apellidos*</Label>
+                    <TextBox x:Name="txtApellidos" Tag="Apellidos" Margin="5,0,5,5" Padding="5"></TextBox>
                 </StackPanel>
 
                 <StackPanel Grid.Row="3" Margin="5">
-                    <Label>Direccion</Label>
-                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    <Label>Dirección*</Label>
+                    <TextBox x:Name="txtDireccion" Tag="Dirección" Margin="5,0,5,5" Padding="5"></TextBox>
                 </StackPanel>
 
                 <StackPanel Grid.Row="4" Margin="5">
-                    <Label>Poblacion</Label>
-                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    <Label>Población*</Label>
+                    <TextBox x:Name="txtPoblacion" Tag="Población" Margin="5,0,5,5" Padding="5"></TextBox>
                 </StackPanel>
 
                 <Grid Grid.Row="5">
@@ -66,18 +66,18 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <StackPanel Grid.Column="0" Margin="5">
-                        <Label>Codigo Postal</Label>
-                        <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                        <Label>Código Postal*</Label>
+                        <TextBox x:Name="txtCodigo" Tag="Código Postal" Margin="5,0,5,5" Padding="5"></TextBox>
                     </StackPanel>
                     <StackPanel Grid.Column="1" Margin="5">
-                        <Label>Provincia</Label>
-                        <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                        <Label>Provincia*</Label>
+                        <TextBox x:Name="txtProvincia" Tag="Provincia" Margin="5,0,5,5" Padding="5"></TextBox>
                     </StackPanel>
                 </Grid>
 
                 <StackPanel Grid.Row="6" Margin="5">
-                    <Label>Email</Label>
-                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    <Label>Email*</Label>
+                    <TextBox x:Name="txtEmail" Tag="Email" Margin="5,0,5,5" Padding="5"></TextBox>
                 </StackPanel>
             </Grid>
         </Grid>
@@ -89,14 +89,14 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Button Style="{DynamicResource StyleBtnCancelar}" Grid.Column="2" Margin="10">
+            <Button Name="btnCancelar" Style="{DynamicResource StyleBtnCancelar}" Grid.Column="2" Margin="10" Click="btnCancelar_Click" Cursor="Hand">
                 <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                     <Image Width="24" Height="24" Source="{StaticResource IconoCancelar.Blanco}"/>
                     <Label Content="Cancelar" Foreground="WhiteSmoke"/>
                 </WrapPanel>
             </Button>
 
-            <Button Style="{DynamicResource StyleBtnAceptar}" Grid.Column="1" Margin="10">
+            <Button Name="btnAceptar" Style="{DynamicResource StyleBtnAceptar}" Grid.Column="1" Margin="10" Click="btnAceptar_Click">
                 <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                     <Image Width="24" Height="24" Source="{StaticResource IconoOk.Blanco}"/>
                     <Label Content="Aceptar" Foreground="WhiteSmoke"/>

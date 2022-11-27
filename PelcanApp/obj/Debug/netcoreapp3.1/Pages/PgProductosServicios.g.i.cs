@@ -61,7 +61,7 @@ namespace PelcanApp.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PelcanApp;V1.0.0.0;component/pages/pgproductosservicios.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PelcanApp;component/pages/pgproductosservicios.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\PgProductosServicios.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

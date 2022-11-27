@@ -153,9 +153,6 @@ namespace PelcanApp.Recursos.UserControls
 
                 List<Mascota> listaMascotasDeCliente = (from d in listaMascotas where d.IdCliente == (int)Tag select d).ToList();
 
-
-
-                
                 //Rellenamos los datos del cliente seleccionado
                 Padre.datosClienteLine1.Content = $"DNI:  {cliente.DNI} Telefono:  {cliente.Telefono}";
                 Padre.datosClienteLine2.Content = $"Nombre:  {cliente.NombreCompleto}";
@@ -176,6 +173,7 @@ namespace PelcanApp.Recursos.UserControls
                     
                     var raza = respuestaRaza.ListaObjetos[0] as Raza;
                     itemMascota.lblRazaMascota.Content = raza.Nombre;
+                    itemMascota.btnOpcionesMascotas.Source = Herramientas.DameImagen(Properties.Resources.menu_down_blanco);
                     Padre.stackListaMascotas.Children.Add(itemMascota);
                 }
 

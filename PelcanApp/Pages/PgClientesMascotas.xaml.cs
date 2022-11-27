@@ -30,6 +30,30 @@ namespace PelcanApp.Pages
         {
             InitializeComponent();
 
+            MostrarClientes();
+
+        }
+
+        private void btnBorrarBusqueda_Click(object sender, RoutedEventArgs e)
+        {
+            txtBuscarCliente.Text = "";
+        }
+
+        private void btnNuevoCliente_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new wNuevoCliente();
+            if ((bool)window.ShowDialog())
+            {
+                MostrarClientes();
+            }
+            
+        }
+
+        private void MostrarClientes()
+        {
+            //Vaciamos el Grid que contiene el listado de clientes
+            GridUsuario.Children.Clear();
+
             //Obtenemos un listado completo de todos los clientes almacenados en la base datos
             Respuesta respuesta = DataClientes.MostrarClientes();
             List<object> listaClientes = respuesta.ListaObjetos;
@@ -46,21 +70,6 @@ namespace PelcanApp.Pages
 
                 GridUsuario.Children.Add(item);
             }
-
-
-        }
-
-        private void btnBorrarBusqueda_Click(object sender, RoutedEventArgs e)
-        {
-            txtBuscarCliente.Text = "";
-        }
-
-        private void btnNuevoCliente_Click(object sender, RoutedEventArgs e)
-        {
-            Window window = new wNuevoCliente();
-
-            MessageBox.Show(window.ShowDialog().ToString());
-            
         }
     }
 }
