@@ -102,3 +102,7 @@ Fecha: 27/11/2022 19:03:48
 Error en método:    at API.Data.DataClientes.AgregarCliente(Cliente cliente) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataClientes.cs:line 188
 Mensaje de error: El procedimiento o la función 'ProcedureNuevoCliente' esperaba el parámetro '@provincia', que no se ha especificado.
 
+Fecha: 28/11/2022 0:01:29
+Error en método:    at API.Data.DataClientes.EditarCliente(Cliente cliente) in C:\Users\antof\source\repos\PelcanApp\API\Data\DataClientes.cs:line 227
+Mensaje de error: El procedimiento o la función 'ProcedureEditarCliente' esperaba el parámetro '@id', que no se ha especificado.
+

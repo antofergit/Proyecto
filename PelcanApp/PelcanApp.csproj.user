@@ -24,6 +24,9 @@
     <Compile Update="Recursos\UserControls\ItemMascota.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\wEditarCliente.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\wNuevoCliente.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -54,6 +57,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Recursos\UserControls\ItemMascota.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\wEditarCliente.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\wNuevoCliente.xaml">

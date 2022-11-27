@@ -49,7 +49,7 @@ namespace PelcanApp.Pages
             
         }
 
-        private void MostrarClientes()
+        public void MostrarClientes()
         {
             //Vaciamos el Grid que contiene el listado de clientes
             GridUsuario.Children.Clear();

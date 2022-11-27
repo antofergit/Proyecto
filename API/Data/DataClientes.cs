@@ -209,8 +209,9 @@ namespace API.Data
             {
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("ProcedureNuevoCliente", con);
+                    SqlCommand cmd = new SqlCommand("ProcedureEditarCliente", con);
                     cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@id", cliente.IDCliente);
                     cmd.Parameters.AddWithValue("@nombre", cliente.Nombre);
                     cmd.Parameters.AddWithValue("@apellidos", cliente.Apellidos);
                     cmd.Parameters.AddWithValue("@nombreCompleto", cliente.NombreCompleto);

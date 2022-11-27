@@ -15,6 +15,7 @@ using PelcanApp.Pages;
 using API.Data;
 using API.Models;
 using System.Linq;
+using PelcanApp.Windows;
 
 namespace PelcanApp.Recursos.UserControls
 {
@@ -71,7 +72,21 @@ namespace PelcanApp.Recursos.UserControls
         {
             Image imagen = sender as Image;
             imagen.Source = Herramientas.DameImagen(Properties.Resources.deleteClick);
-            MessageBox.Show("Click en el boton eliminar");
+
+            //Eliminamos el cliente seleccionado
+            Respuesta respuesta = DataClientes.EliminarCliente((int)this.Tag);
+            if (respuesta.Estado)
+            {
+                MessageBox.Show("El cliente se ha elimiando correctamente", "Cliente Eliminado", MessageBoxButton.OK, MessageBoxImage.Asterisk);
+                Padre.MostrarClientes();
+            }
+            else
+            {
+                MessageBox.Show(respuesta.MensajeRespuesta, "Error al elimianr el cliente", MessageBoxButton.OK, MessageBoxImage.Stop);
+
+            }
+
+
             ClickEnPanel = false;
         }
 
@@ -85,7 +100,12 @@ namespace PelcanApp.Recursos.UserControls
         {
             Image imagen = sender as Image;
             imagen.Source = Herramientas.DameImagen(Properties.Resources.EditClick);
-            MessageBox.Show("Click en el boton editar");
+
+            //Abrimos la ventana de edición de cliente
+            wEditarCliente windowEditarCliente = new wEditarCliente((int)this.Tag);
+            if ((bool)windowEditarCliente.ShowDialog()) 
+                Padre.MostrarClientes();
+
             ClickEnPanel = false;
         }
 
@@ -186,5 +206,6 @@ namespace PelcanApp.Recursos.UserControls
             }
 
         }
+
     }
 }
