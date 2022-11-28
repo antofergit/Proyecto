@@ -1,0 +1,86 @@
+﻿<Window x:Class="PelcanApp.Windows.wNuevaMascota"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PelcanApp.Windows"
+        mc:Ignorable="d"
+        Title="NuevaMascota" Height="400" Width="800"
+        WindowStyle="SingleBorderWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="8,0,4,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label>Cliente</Label>
+            <TextBox x:Name="txtCliente" Padding="4"></TextBox>
+        </StackPanel>
+        <StackPanel Margin="4,0,4,0" Grid.Row="0" Grid.Column="2" >
+            <Label>DNI Cliente</Label>
+            <TextBox Name="txtDniCliente" Padding="4"></TextBox>
+        </StackPanel>
+        <StackPanel Margin="8,0,4,0" Grid.Row="1" Grid.Column="0" >
+            <Label>ID Mascota</Label>
+            <TextBox Name="txtIdMascota" Padding="4"></TextBox>
+        </StackPanel>
+        <StackPanel Margin="4,0,4,0" Grid.Row="1" Grid.Column="1" >
+            <Label>Fecha de Alta</Label>
+            <CalendarDayButton></CalendarDayButton>
+        </StackPanel>
+        <StackPanel Margin="4,0,4,0" Grid.Row="1" Grid.Column="2" >
+            <Label>Fecha de Nacimiento</Label>
+            <CalendarDayButton></CalendarDayButton>
+        </StackPanel>
+        <StackPanel Margin="8,0,4,0" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label>Raza</Label>
+            <ComboBox Name="cmbRazas" SelectionChanged="cmbRazas_SelectionChanged" ></ComboBox>
+        </StackPanel>
+        <StackPanel Margin="4,0,4,0" Grid.Row="2" Grid.Column="2" >
+            <Label>Nombre</Label>
+            <TextBox Name="txtNombre" Padding="4"></TextBox>
+        </StackPanel>
+        <StackPanel Margin="4,0,4,0" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label>Chip</Label>
+            <TextBox x:Name="txtChip" Padding="4"></TextBox>
+        </StackPanel>
+        <StackPanel Margin="4,0,4,0" Grid.Row="3" Grid.Column="2" >
+            <Label>Peso</Label>
+            <TextBox x:Name="txtPeso" Padding="4"></TextBox>
+        </StackPanel>
+        <StackPanel Margin="10" Grid.Row="0" Grid.Column="3" Grid.RowSpan="4">
+            <Image x:Name="imgRaza" Source="/Windows/clumber_spaniel.jpg" Stretch="Uniform" Height="285" Width="292"/>
+        </StackPanel>
+        <Grid Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4"  Background="{StaticResource Color.Oscuro}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="btnCancelar" Width="120" Style="{DynamicResource StyleBtnCancelar}" Grid.Column="2" Margin="12" Cursor="Hand" Click="btnCancelar_Click">
+                <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Width="24" Height="24" Source="{StaticResource IconoCancelar.Blanco}"/>
+                    <Label Content="Cancelar" Foreground="WhiteSmoke"/>
+                </WrapPanel>
+            </Button>
+
+            <Button Name="btnAceptar" Width="120" Style="{DynamicResource StyleBtnAceptar}" Grid.Column="1" Margin="12" Cursor="Hand" >
+                <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Width="24" Height="24" Source="{StaticResource IconoOk.Blanco}"/>
+                    <Label Content="Aceptar" Foreground="WhiteSmoke"/>
+                </WrapPanel>
+            </Button>
+
+
+        </Grid>
+    </Grid>
+</Window>

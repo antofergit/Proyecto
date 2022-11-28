@@ -42,10 +42,31 @@
             <!--Mascotas del cliente-->
             <Grid Grid.Row="1">
                 <StackPanel Margin="0,0,0,5">
-                    <Label  Background="{StaticResource Color.Oscuro}" Foreground="{StaticResource Color.Blanco}">Mascotas</Label>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Padding="10,5,0,5" Grid.Column="0" Background="{StaticResource Color.Oscuro}" Foreground="{StaticResource Color.Blanco}">Mascotas</Label>
+                        <Button x:Name="btnNuevaMascota"
+                            Style="{StaticResource styleBtnNuevo}" 
+                            Margin="0" 
+                            Foreground="{StaticResource Color.Blanco}"
+                            Grid.Column="1" 
+                            Padding="10,5,10,5" 
+                            Content="Nueva Mascota" Cursor="Hand" Click="btnNuevaMascota_Click">
+                        </Button>
+                    </Grid>
+                    <WrapPanel HorizontalAlignment="Right" Margin="8">
+                        
+                        
+                        
+                    </WrapPanel>
                     <ScrollViewer VerticalScrollBarVisibility="Auto">
                         <StackPanel x:Name="stackListaMascotas" Margin="10"/>
+
                     </ScrollViewer>
+                    
                 </StackPanel>
                 
 

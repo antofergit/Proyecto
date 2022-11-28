@@ -78,5 +78,18 @@ namespace PelcanApp.Pages
             MostrarClientes(objeto.Text);
 
         }
+
+        private void btnNuevaMascota_Click(object sender, RoutedEventArgs e)
+        {
+            wNuevaMascota windowNuevaMascota = new wNuevaMascota();
+            if ((bool)windowNuevaMascota.ShowDialog())
+            {
+
+            }
+            else
+            {
+
+            }
+        }
     }
 }

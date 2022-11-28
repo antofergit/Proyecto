@@ -118,6 +118,186 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="affenpinscher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\affenpinscher.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="akita_japones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\akita_japones.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="american_staffordshire_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\american_staffordshire_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="basenji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\basenji.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="basset_azul_de_gascuña" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\basset_azul_de_gascuña.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="basset_hound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\basset_hound.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="basset_leonado_de_bretaña" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\basset_leonado_de_bretaña.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beagle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\beagle.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beauceron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\beauceron.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bedlington_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bedlington_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bergamasco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bergamasco.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bichon_boloñes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bichon_boloñes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bichon_frise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bichon_frise.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bobtail_o_antiguo_pastor_ingles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bobtail_o_antiguo_pastor_ingles.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bodeguero_andaluz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bodeguero_andaluz.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="border_collie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\border_collie.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="border_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\border_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="borzoi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\borzoi.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boston_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\boston_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boxer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\boxer.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boyero_de_berna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\boyero_de_berna.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boyero_de_flandes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\boyero_de_flandes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bracco_italiano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bracco_italiano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="braco_aleman_de_pelo_corto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\braco_aleman_de_pelo_corto.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="braco_aleman_de_pelo_duro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\braco_aleman_de_pelo_duro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="braco_de_weimar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\braco_de_weimar.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="braco_hungaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\braco_hungaro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="braco_hungaro_de_pelo_duro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\braco_hungaro_de_pelo_duro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="breton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\breton.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buhund_noruego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\buhund_noruego.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bulldog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bulldog.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bulldog_frances" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bulldog_frances.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bullmastiff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bullmastiff.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bull_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bull_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bull_terrier_miniatura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\bull_terrier_miniatura.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cairn_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\cairn_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="caniche_eneno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\caniche_eneno.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="caniche_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\caniche_grande.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="caniche_toy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\caniche_toy.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="carlino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\carlino.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cavalier_king_charles_spaniel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\cavalier_king_charles_spaniel.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cazador_de_alces_noruego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\cazador_de_alces_noruego.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chihuahua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\chihuahua.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chihuahua_de_pelo_largo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\chihuahua_de_pelo_largo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chin_japones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\chin_japones.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chow_chow_de_pelo_duro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\chow_chow_de_pelo_duro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chow_chow_de_pelo_suave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\chow_chow_de_pelo_suave.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clumber_spaniel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\clumber_spaniel.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cobrador_de_nueva_escocia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\cobrador_de_nueva_escocia.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cocker_espaniel_americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\cocker_espaniel_americano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cocker_espaniel_ingles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\cocker_espaniel_ingles.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="collie_barbudo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\collie_barbudo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="collie_de_pelo_corto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\collie_de_pelo_corto.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="corgi_gales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\corgi_gales.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="corgi_gales_de_pembroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\corgi_gales_de_pembroke.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="coton_de_tulear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\coton_de_tulear.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="crestado_chino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\crestado_chino.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dachshund" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\dachshund.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dalmata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\dalmata.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dandie_dinmont_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\dandie_dinmont_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="deleteClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\recursos\imagenes\deleteclick.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -126,6 +306,12 @@
   </data>
   <data name="deleteRojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\recursos\imagenes\deleterojo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dobermann" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\dobermann.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dogo_de_burdeos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\dogo_de_burdeos.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EditAmarillo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\recursos\imagenes\editamarillo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -136,10 +322,409 @@
   <data name="EditGris" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\recursos\imagenes\editgris.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="esquimal_canadiense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\esquimal_canadiense.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="field_spaniel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\field_spaniel.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="finlandes_de_laponia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\finlandes_de_laponia.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="foxhound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\foxhound.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fox_terrier_de_pelo_duro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\fox_terrier_de_pelo_duro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fox_terrier_de_pelo_liso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\fox_terrier_de_pelo_liso.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="galgo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\galgo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="galgo_arabe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\galgo_arabe.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="galgo_italiano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\galgo_italiano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="galgo_persa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\galgo_persa.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="golden_retriever" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\golden_retriever.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gran_azul_de_gascuña" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\gran_azul_de_gascuña.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gran_danes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\gran_danes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grifon_belga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\grifon_belga.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grifon_de_bruselas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\grifon_de_bruselas.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grifon_vandeano_basset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\grifon_vandeano_basset.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grifon_vandeano_basset_pequeño" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\grifon_vandeano_basset_pequeño.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="habanero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\habanero.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hamilton_stovare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\hamilton_stovare.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="havawart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\havawart.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="husky_siberiano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\husky_siberiano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="keeshond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\keeshond.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kerry_blue_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\kerry_blue_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="king_charles_spaniel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\king_charles_spaniel.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="komondor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\komondor.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kuvasz_hungaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\kuvasz_hungaro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labarador_retriever" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\labarador_retriever.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="laekenois" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\laekenois.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lakeland_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\lakeland_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lancashire_heeler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\lancashire_heeler.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lebrel_escoces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\lebrel_escoces.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="leonberger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\leonberger.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lhasa_apso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\lhasa_apso.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lobero_irlandes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\lobero_irlandes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lowchen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\lowchen.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="malamute_de_alaska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\malamute_de_alaska.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="malinois" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\malinois.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="maltes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\maltes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="manchester_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\manchester_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mastin_ingles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\mastin_ingles.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mastin_napolitano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\mastin_napolitano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mastin_tibetano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\mastin_tibetano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="menu_down_blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\recursos\imagenes\menu-down-blanco.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menu_down_corporativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\recursos\imagenes\menu-down-corporativo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mestizo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\mestizo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="munsterlander" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\munsterlander.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="norfolk_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\norfolk_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="otterhound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\otterhound.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="papillon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\papillon.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="parson_jack_russell_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\parson_jack_russell_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_aleman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_aleman.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_australiano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_australiano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_belga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_belga.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_belga_laekenois" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_belga_laekenois.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_belga_malinois" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_belga_malinois.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_belga_tervueren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_belga_tervueren.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_de_anatolia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_de_anatolia.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_de_brie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_de_brie.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_de_los_pirineos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_de_los_pirineos.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_de_maremma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_de_maremma.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_de_shetland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_de_shetland.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_ganadero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_ganadero.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_lapon_de_suecia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_lapon_de_suecia.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pastor_polaco_de_las_llanuras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pastor_polaco_de_las_llanuras.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_del_faraon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_del_faraon.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_de_agua_español" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_de_agua_español.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Perro_de_agua_irlandes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_de_agua_irlandes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_de_agua_potugues" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_de_agua_potugues.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_de_canaan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_de_canaan.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_de_montaña_de_los_pirineos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_de_montaña_de_los_pirineos.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_salchicha_de_pelo_duro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_salchicha_de_pelo_duro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_salchicha_de_pelo_liso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_salchicha_de_pelo_liso.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_salchicha_miniatura_de_pelo_duro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_salchicha_miniatura_de_pelo_duro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_salchicha_miniatura_de_pelo_largo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_salchicha_miniatura_de_pelo_largo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_salchicha_miniatura_de_pelo_liso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_salchicha_miniatura_de_pelo_liso.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro_serra_da_estrela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\perro_serra_da_estrela.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pinscher_aleman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pinscher_aleman.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pinscher_miniatura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pinscher_miniatura.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pitbull_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pitbull_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="podenco_ibicenco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\podenco_ibicenco.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pointer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pointer.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pomerania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\pomerania.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="puli_hungaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\puli_hungaro.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="retriever_de_chesapeake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\retriever_de_chesapeake.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="retriever_de_pelo_liso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\retriever_de_pelo_liso.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="retriever_de_pelo_rizado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\retriever_de_pelo_rizado.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rhodesian_ridgeback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\rhodesian_ridgeback.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rottweiler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\rottweiler.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rough_collie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\rough_collie.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sabueso_bavaro_de_montaña" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\sabueso_bavaro_de_montaña.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sabueso_italiano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\sabueso_italiano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="samoyedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\samoyedo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="san_bernardo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\san_bernardo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="schipperke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\schipperke.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="schnauzer_estandar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\schnauzer_estandar.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="schnauzer_gigante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\schnauzer_gigante.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="schnauzer_miniatura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\schnauzer_miniatura.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sealyham_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\sealyham_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="setter_escoces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\setter_escoces.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="setter_ingles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\setter_ingles.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="setter_irlandes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\setter_irlandes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="setter_irlandes_rojo_y_blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\setter_irlandes_rojo_y_blanco.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shar_pei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\shar_pei.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shiba_inu_japones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\shiba_inu_japones.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shih_tzu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\shih_tzu.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sin_imagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\sin_imagen.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skye_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\skye_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="soft_coated_wheaten_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\soft_coated_wheaten_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spaniel_holandes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\spaniel_holandes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spaniel_tibetano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\spaniel_tibetano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spinone_italiano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\spinone_italiano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spitz_aleman_medio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\spitz_aleman_medio.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spitz_aleman_pequeño" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\spitz_aleman_pequeño.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spitz_finlandes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\spitz_finlandes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spitz_japones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\spitz_japones.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="springer_spaniel_gales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\springer_spaniel_gales.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="springer_spaniel_ingles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\springer_spaniel_ingles.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="staffordshire_bull_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\staffordshire_bull_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sussex_spaniel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\sussex_spaniel.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terranova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terranova.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_australiano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_australiano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_checo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_checo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_de_airedale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_de_airedale.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_escoces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_escoces.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_gales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_gales.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_irlandes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_irlandes.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_norwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_norwich.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_sedoso_australiano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_sedoso_australiano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="terrier_tibetano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\terrier_tibetano.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toy_terrier_ingles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\toy_terrier_ingles.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vallhund_sueco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\vallhund_sueco.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="west_highland_white_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\west_highland_white_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="whippet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\whippet.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xoloitzcuintle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\xoloitzcuintle.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yorkshire_terrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\windows\razas\yorkshire_terrier.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

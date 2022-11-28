@@ -19,5 +19,14 @@ namespace PelcanApp
 
         }
 
+        public static BitmapImage DameImagen(string path)
+        {
+            BitmapImage bitmapImage = new BitmapImage();
+            bitmapImage.BeginInit();
+            bitmapImage.UriSource = new Uri(path, UriKind.Relative);
+            bitmapImage.EndInit();
+            return bitmapImage;
+        }
+
     }
 }

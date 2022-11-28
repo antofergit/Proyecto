@@ -22,7 +22,7 @@ namespace PelcanApp.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace PelcanApp.Properties {
         ///   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PelcanApp.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace PelcanApp.Properties {
         ///   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,607 @@ namespace PelcanApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] deleteClick {
+        public static byte[] affenpinscher {
+            get {
+                object obj = ResourceManager.GetObject("affenpinscher", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] akita_japones {
+            get {
+                object obj = ResourceManager.GetObject("akita_japones", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] american_staffordshire_terrier {
+            get {
+                object obj = ResourceManager.GetObject("american_staffordshire_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] basenji {
+            get {
+                object obj = ResourceManager.GetObject("basenji", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] basset_azul_de_gascuña {
+            get {
+                object obj = ResourceManager.GetObject("basset_azul_de_gascuña", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] basset_hound {
+            get {
+                object obj = ResourceManager.GetObject("basset_hound", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] basset_leonado_de_bretaña {
+            get {
+                object obj = ResourceManager.GetObject("basset_leonado_de_bretaña", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] beagle {
+            get {
+                object obj = ResourceManager.GetObject("beagle", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] beauceron {
+            get {
+                object obj = ResourceManager.GetObject("beauceron", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bedlington_terrier {
+            get {
+                object obj = ResourceManager.GetObject("bedlington_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bergamasco {
+            get {
+                object obj = ResourceManager.GetObject("bergamasco", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bichon_boloñes {
+            get {
+                object obj = ResourceManager.GetObject("bichon_boloñes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bichon_frise {
+            get {
+                object obj = ResourceManager.GetObject("bichon_frise", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bobtail_o_antiguo_pastor_ingles {
+            get {
+                object obj = ResourceManager.GetObject("bobtail_o_antiguo_pastor_ingles", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bodeguero_andaluz {
+            get {
+                object obj = ResourceManager.GetObject("bodeguero_andaluz", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] border_collie {
+            get {
+                object obj = ResourceManager.GetObject("border_collie", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] border_terrier {
+            get {
+                object obj = ResourceManager.GetObject("border_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] borzoi {
+            get {
+                object obj = ResourceManager.GetObject("borzoi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] boston_terrier {
+            get {
+                object obj = ResourceManager.GetObject("boston_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] boxer {
+            get {
+                object obj = ResourceManager.GetObject("boxer", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] boyero_de_berna {
+            get {
+                object obj = ResourceManager.GetObject("boyero_de_berna", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] boyero_de_flandes {
+            get {
+                object obj = ResourceManager.GetObject("boyero_de_flandes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bracco_italiano {
+            get {
+                object obj = ResourceManager.GetObject("bracco_italiano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] braco_aleman_de_pelo_corto {
+            get {
+                object obj = ResourceManager.GetObject("braco_aleman_de_pelo_corto", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] braco_aleman_de_pelo_duro {
+            get {
+                object obj = ResourceManager.GetObject("braco_aleman_de_pelo_duro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] braco_de_weimar {
+            get {
+                object obj = ResourceManager.GetObject("braco_de_weimar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] braco_hungaro {
+            get {
+                object obj = ResourceManager.GetObject("braco_hungaro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] braco_hungaro_de_pelo_duro {
+            get {
+                object obj = ResourceManager.GetObject("braco_hungaro_de_pelo_duro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] breton {
+            get {
+                object obj = ResourceManager.GetObject("breton", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] buhund_noruego {
+            get {
+                object obj = ResourceManager.GetObject("buhund_noruego", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bull_terrier {
+            get {
+                object obj = ResourceManager.GetObject("bull_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bull_terrier_miniatura {
+            get {
+                object obj = ResourceManager.GetObject("bull_terrier_miniatura", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bulldog {
+            get {
+                object obj = ResourceManager.GetObject("bulldog", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bulldog_frances {
+            get {
+                object obj = ResourceManager.GetObject("bulldog_frances", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] bullmastiff {
+            get {
+                object obj = ResourceManager.GetObject("bullmastiff", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] cairn_terrier {
+            get {
+                object obj = ResourceManager.GetObject("cairn_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] caniche_eneno {
+            get {
+                object obj = ResourceManager.GetObject("caniche_eneno", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] caniche_grande {
+            get {
+                object obj = ResourceManager.GetObject("caniche_grande", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] caniche_toy {
+            get {
+                object obj = ResourceManager.GetObject("caniche_toy", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] carlino {
+            get {
+                object obj = ResourceManager.GetObject("carlino", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] cavalier_king_charles_spaniel {
+            get {
+                object obj = ResourceManager.GetObject("cavalier_king_charles_spaniel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] cazador_de_alces_noruego {
+            get {
+                object obj = ResourceManager.GetObject("cazador_de_alces_noruego", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] chihuahua {
+            get {
+                object obj = ResourceManager.GetObject("chihuahua", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] chihuahua_de_pelo_largo {
+            get {
+                object obj = ResourceManager.GetObject("chihuahua_de_pelo_largo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] chin_japones {
+            get {
+                object obj = ResourceManager.GetObject("chin_japones", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] chow_chow_de_pelo_duro {
+            get {
+                object obj = ResourceManager.GetObject("chow_chow_de_pelo_duro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] chow_chow_de_pelo_suave {
+            get {
+                object obj = ResourceManager.GetObject("chow_chow_de_pelo_suave", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] clumber_spaniel {
+            get {
+                object obj = ResourceManager.GetObject("clumber_spaniel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] cobrador_de_nueva_escocia {
+            get {
+                object obj = ResourceManager.GetObject("cobrador_de_nueva_escocia", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] cocker_espaniel_americano {
+            get {
+                object obj = ResourceManager.GetObject("cocker_espaniel_americano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] cocker_espaniel_ingles {
+            get {
+                object obj = ResourceManager.GetObject("cocker_espaniel_ingles", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] collie_barbudo {
+            get {
+                object obj = ResourceManager.GetObject("collie_barbudo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] collie_de_pelo_corto {
+            get {
+                object obj = ResourceManager.GetObject("collie_de_pelo_corto", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] corgi_gales {
+            get {
+                object obj = ResourceManager.GetObject("corgi_gales", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] corgi_gales_de_pembroke {
+            get {
+                object obj = ResourceManager.GetObject("corgi_gales_de_pembroke", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] coton_de_tulear {
+            get {
+                object obj = ResourceManager.GetObject("coton_de_tulear", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] crestado_chino {
+            get {
+                object obj = ResourceManager.GetObject("crestado_chino", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] dachshund {
+            get {
+                object obj = ResourceManager.GetObject("dachshund", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] dalmata {
+            get {
+                object obj = ResourceManager.GetObject("dalmata", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] dandie_dinmont_terrier {
+            get {
+                object obj = ResourceManager.GetObject("dandie_dinmont_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] deleteClick {
             get {
                 object obj = ResourceManager.GetObject("deleteClick", resourceCulture);
                 return ((byte[])(obj));
@@ -73,7 +673,7 @@ namespace PelcanApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] deleteGris {
+        public static byte[] deleteGris {
             get {
                 object obj = ResourceManager.GetObject("deleteGris", resourceCulture);
                 return ((byte[])(obj));
@@ -83,7 +683,7 @@ namespace PelcanApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] deleteRojo {
+        public static byte[] deleteRojo {
             get {
                 object obj = ResourceManager.GetObject("deleteRojo", resourceCulture);
                 return ((byte[])(obj));
@@ -93,7 +693,27 @@ namespace PelcanApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] EditAmarillo {
+        public static byte[] dobermann {
+            get {
+                object obj = ResourceManager.GetObject("dobermann", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] dogo_de_burdeos {
+            get {
+                object obj = ResourceManager.GetObject("dogo_de_burdeos", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] EditAmarillo {
             get {
                 object obj = ResourceManager.GetObject("EditAmarillo", resourceCulture);
                 return ((byte[])(obj));
@@ -103,7 +723,7 @@ namespace PelcanApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] EditClick {
+        public static byte[] EditClick {
             get {
                 object obj = ResourceManager.GetObject("EditClick", resourceCulture);
                 return ((byte[])(obj));
@@ -113,7 +733,7 @@ namespace PelcanApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] EditGris {
+        public static byte[] EditGris {
             get {
                 object obj = ResourceManager.GetObject("EditGris", resourceCulture);
                 return ((byte[])(obj));
@@ -123,7 +743,427 @@ namespace PelcanApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] menu_down_blanco {
+        public static byte[] esquimal_canadiense {
+            get {
+                object obj = ResourceManager.GetObject("esquimal_canadiense", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] field_spaniel {
+            get {
+                object obj = ResourceManager.GetObject("field_spaniel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] finlandes_de_laponia {
+            get {
+                object obj = ResourceManager.GetObject("finlandes_de_laponia", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] fox_terrier_de_pelo_duro {
+            get {
+                object obj = ResourceManager.GetObject("fox_terrier_de_pelo_duro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] fox_terrier_de_pelo_liso {
+            get {
+                object obj = ResourceManager.GetObject("fox_terrier_de_pelo_liso", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] foxhound {
+            get {
+                object obj = ResourceManager.GetObject("foxhound", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] galgo {
+            get {
+                object obj = ResourceManager.GetObject("galgo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] galgo_arabe {
+            get {
+                object obj = ResourceManager.GetObject("galgo_arabe", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] galgo_italiano {
+            get {
+                object obj = ResourceManager.GetObject("galgo_italiano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] galgo_persa {
+            get {
+                object obj = ResourceManager.GetObject("galgo_persa", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] golden_retriever {
+            get {
+                object obj = ResourceManager.GetObject("golden_retriever", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] gran_azul_de_gascuña {
+            get {
+                object obj = ResourceManager.GetObject("gran_azul_de_gascuña", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] gran_danes {
+            get {
+                object obj = ResourceManager.GetObject("gran_danes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] grifon_belga {
+            get {
+                object obj = ResourceManager.GetObject("grifon_belga", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] grifon_de_bruselas {
+            get {
+                object obj = ResourceManager.GetObject("grifon_de_bruselas", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] grifon_vandeano_basset {
+            get {
+                object obj = ResourceManager.GetObject("grifon_vandeano_basset", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] grifon_vandeano_basset_pequeño {
+            get {
+                object obj = ResourceManager.GetObject("grifon_vandeano_basset_pequeño", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] habanero {
+            get {
+                object obj = ResourceManager.GetObject("habanero", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] hamilton_stovare {
+            get {
+                object obj = ResourceManager.GetObject("hamilton_stovare", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] havawart {
+            get {
+                object obj = ResourceManager.GetObject("havawart", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] husky_siberiano {
+            get {
+                object obj = ResourceManager.GetObject("husky_siberiano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] keeshond {
+            get {
+                object obj = ResourceManager.GetObject("keeshond", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] kerry_blue_terrier {
+            get {
+                object obj = ResourceManager.GetObject("kerry_blue_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] king_charles_spaniel {
+            get {
+                object obj = ResourceManager.GetObject("king_charles_spaniel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] komondor {
+            get {
+                object obj = ResourceManager.GetObject("komondor", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] kuvasz_hungaro {
+            get {
+                object obj = ResourceManager.GetObject("kuvasz_hungaro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] labarador_retriever {
+            get {
+                object obj = ResourceManager.GetObject("labarador_retriever", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] laekenois {
+            get {
+                object obj = ResourceManager.GetObject("laekenois", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] lakeland_terrier {
+            get {
+                object obj = ResourceManager.GetObject("lakeland_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] lancashire_heeler {
+            get {
+                object obj = ResourceManager.GetObject("lancashire_heeler", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] lebrel_escoces {
+            get {
+                object obj = ResourceManager.GetObject("lebrel_escoces", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] leonberger {
+            get {
+                object obj = ResourceManager.GetObject("leonberger", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] lhasa_apso {
+            get {
+                object obj = ResourceManager.GetObject("lhasa_apso", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] lobero_irlandes {
+            get {
+                object obj = ResourceManager.GetObject("lobero_irlandes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] lowchen {
+            get {
+                object obj = ResourceManager.GetObject("lowchen", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] malamute_de_alaska {
+            get {
+                object obj = ResourceManager.GetObject("malamute_de_alaska", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] malinois {
+            get {
+                object obj = ResourceManager.GetObject("malinois", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] maltes {
+            get {
+                object obj = ResourceManager.GetObject("maltes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] manchester_terrier {
+            get {
+                object obj = ResourceManager.GetObject("manchester_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] mastin_ingles {
+            get {
+                object obj = ResourceManager.GetObject("mastin_ingles", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] mastin_napolitano {
+            get {
+                object obj = ResourceManager.GetObject("mastin_napolitano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] mastin_tibetano {
+            get {
+                object obj = ResourceManager.GetObject("mastin_tibetano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] menu_down_blanco {
             get {
                 object obj = ResourceManager.GetObject("menu_down_blanco", resourceCulture);
                 return ((byte[])(obj));
@@ -133,9 +1173,919 @@ namespace PelcanApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
-        internal static byte[] menu_down_corporativo {
+        public static byte[] menu_down_corporativo {
             get {
                 object obj = ResourceManager.GetObject("menu_down_corporativo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] mestizo {
+            get {
+                object obj = ResourceManager.GetObject("mestizo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] munsterlander {
+            get {
+                object obj = ResourceManager.GetObject("munsterlander", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] norfolk_terrier {
+            get {
+                object obj = ResourceManager.GetObject("norfolk_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] otterhound {
+            get {
+                object obj = ResourceManager.GetObject("otterhound", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] papillon {
+            get {
+                object obj = ResourceManager.GetObject("papillon", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] parson_jack_russell_terrier {
+            get {
+                object obj = ResourceManager.GetObject("parson_jack_russell_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_aleman {
+            get {
+                object obj = ResourceManager.GetObject("pastor_aleman", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_australiano {
+            get {
+                object obj = ResourceManager.GetObject("pastor_australiano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_belga {
+            get {
+                object obj = ResourceManager.GetObject("pastor_belga", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_belga_laekenois {
+            get {
+                object obj = ResourceManager.GetObject("pastor_belga_laekenois", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_belga_malinois {
+            get {
+                object obj = ResourceManager.GetObject("pastor_belga_malinois", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_belga_tervueren {
+            get {
+                object obj = ResourceManager.GetObject("pastor_belga_tervueren", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_de_anatolia {
+            get {
+                object obj = ResourceManager.GetObject("pastor_de_anatolia", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_de_brie {
+            get {
+                object obj = ResourceManager.GetObject("pastor_de_brie", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_de_los_pirineos {
+            get {
+                object obj = ResourceManager.GetObject("pastor_de_los_pirineos", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_de_maremma {
+            get {
+                object obj = ResourceManager.GetObject("pastor_de_maremma", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_de_shetland {
+            get {
+                object obj = ResourceManager.GetObject("pastor_de_shetland", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_ganadero {
+            get {
+                object obj = ResourceManager.GetObject("pastor_ganadero", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_lapon_de_suecia {
+            get {
+                object obj = ResourceManager.GetObject("pastor_lapon_de_suecia", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pastor_polaco_de_las_llanuras {
+            get {
+                object obj = ResourceManager.GetObject("pastor_polaco_de_las_llanuras", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_de_agua_español {
+            get {
+                object obj = ResourceManager.GetObject("perro_de_agua_español", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] Perro_de_agua_irlandes {
+            get {
+                object obj = ResourceManager.GetObject("Perro_de_agua_irlandes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_de_agua_potugues {
+            get {
+                object obj = ResourceManager.GetObject("perro_de_agua_potugues", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_de_canaan {
+            get {
+                object obj = ResourceManager.GetObject("perro_de_canaan", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_de_montaña_de_los_pirineos {
+            get {
+                object obj = ResourceManager.GetObject("perro_de_montaña_de_los_pirineos", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_del_faraon {
+            get {
+                object obj = ResourceManager.GetObject("perro_del_faraon", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_salchicha_de_pelo_duro {
+            get {
+                object obj = ResourceManager.GetObject("perro_salchicha_de_pelo_duro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_salchicha_de_pelo_liso {
+            get {
+                object obj = ResourceManager.GetObject("perro_salchicha_de_pelo_liso", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_salchicha_miniatura_de_pelo_duro {
+            get {
+                object obj = ResourceManager.GetObject("perro_salchicha_miniatura_de_pelo_duro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_salchicha_miniatura_de_pelo_largo {
+            get {
+                object obj = ResourceManager.GetObject("perro_salchicha_miniatura_de_pelo_largo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_salchicha_miniatura_de_pelo_liso {
+            get {
+                object obj = ResourceManager.GetObject("perro_salchicha_miniatura_de_pelo_liso", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] perro_serra_da_estrela {
+            get {
+                object obj = ResourceManager.GetObject("perro_serra_da_estrela", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pinscher_aleman {
+            get {
+                object obj = ResourceManager.GetObject("pinscher_aleman", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pinscher_miniatura {
+            get {
+                object obj = ResourceManager.GetObject("pinscher_miniatura", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pitbull_terrier {
+            get {
+                object obj = ResourceManager.GetObject("pitbull_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] podenco_ibicenco {
+            get {
+                object obj = ResourceManager.GetObject("podenco_ibicenco", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pointer {
+            get {
+                object obj = ResourceManager.GetObject("pointer", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] pomerania {
+            get {
+                object obj = ResourceManager.GetObject("pomerania", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] puli_hungaro {
+            get {
+                object obj = ResourceManager.GetObject("puli_hungaro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] retriever_de_chesapeake {
+            get {
+                object obj = ResourceManager.GetObject("retriever_de_chesapeake", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] retriever_de_pelo_liso {
+            get {
+                object obj = ResourceManager.GetObject("retriever_de_pelo_liso", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] retriever_de_pelo_rizado {
+            get {
+                object obj = ResourceManager.GetObject("retriever_de_pelo_rizado", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] rhodesian_ridgeback {
+            get {
+                object obj = ResourceManager.GetObject("rhodesian_ridgeback", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] rottweiler {
+            get {
+                object obj = ResourceManager.GetObject("rottweiler", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] rough_collie {
+            get {
+                object obj = ResourceManager.GetObject("rough_collie", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] sabueso_bavaro_de_montaña {
+            get {
+                object obj = ResourceManager.GetObject("sabueso_bavaro_de_montaña", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] sabueso_italiano {
+            get {
+                object obj = ResourceManager.GetObject("sabueso_italiano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] samoyedo {
+            get {
+                object obj = ResourceManager.GetObject("samoyedo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] san_bernardo {
+            get {
+                object obj = ResourceManager.GetObject("san_bernardo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] schipperke {
+            get {
+                object obj = ResourceManager.GetObject("schipperke", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] schnauzer_estandar {
+            get {
+                object obj = ResourceManager.GetObject("schnauzer_estandar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] schnauzer_gigante {
+            get {
+                object obj = ResourceManager.GetObject("schnauzer_gigante", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] schnauzer_miniatura {
+            get {
+                object obj = ResourceManager.GetObject("schnauzer_miniatura", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] sealyham_terrier {
+            get {
+                object obj = ResourceManager.GetObject("sealyham_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] setter_escoces {
+            get {
+                object obj = ResourceManager.GetObject("setter_escoces", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] setter_ingles {
+            get {
+                object obj = ResourceManager.GetObject("setter_ingles", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] setter_irlandes {
+            get {
+                object obj = ResourceManager.GetObject("setter_irlandes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] setter_irlandes_rojo_y_blanco {
+            get {
+                object obj = ResourceManager.GetObject("setter_irlandes_rojo_y_blanco", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] shar_pei {
+            get {
+                object obj = ResourceManager.GetObject("shar_pei", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] shiba_inu_japones {
+            get {
+                object obj = ResourceManager.GetObject("shiba_inu_japones", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] shih_tzu {
+            get {
+                object obj = ResourceManager.GetObject("shih_tzu", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] sin_imagen {
+            get {
+                object obj = ResourceManager.GetObject("sin_imagen", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] skye_terrier {
+            get {
+                object obj = ResourceManager.GetObject("skye_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] soft_coated_wheaten_terrier {
+            get {
+                object obj = ResourceManager.GetObject("soft_coated_wheaten_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] spaniel_holandes {
+            get {
+                object obj = ResourceManager.GetObject("spaniel_holandes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] spaniel_tibetano {
+            get {
+                object obj = ResourceManager.GetObject("spaniel_tibetano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] spinone_italiano {
+            get {
+                object obj = ResourceManager.GetObject("spinone_italiano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] spitz_aleman_medio {
+            get {
+                object obj = ResourceManager.GetObject("spitz_aleman_medio", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] spitz_aleman_pequeño {
+            get {
+                object obj = ResourceManager.GetObject("spitz_aleman_pequeño", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] spitz_finlandes {
+            get {
+                object obj = ResourceManager.GetObject("spitz_finlandes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] spitz_japones {
+            get {
+                object obj = ResourceManager.GetObject("spitz_japones", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] springer_spaniel_gales {
+            get {
+                object obj = ResourceManager.GetObject("springer_spaniel_gales", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] springer_spaniel_ingles {
+            get {
+                object obj = ResourceManager.GetObject("springer_spaniel_ingles", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] staffordshire_bull_terrier {
+            get {
+                object obj = ResourceManager.GetObject("staffordshire_bull_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] sussex_spaniel {
+            get {
+                object obj = ResourceManager.GetObject("sussex_spaniel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terranova {
+            get {
+                object obj = ResourceManager.GetObject("terranova", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_australiano {
+            get {
+                object obj = ResourceManager.GetObject("terrier_australiano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_checo {
+            get {
+                object obj = ResourceManager.GetObject("terrier_checo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_de_airedale {
+            get {
+                object obj = ResourceManager.GetObject("terrier_de_airedale", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_escoces {
+            get {
+                object obj = ResourceManager.GetObject("terrier_escoces", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_gales {
+            get {
+                object obj = ResourceManager.GetObject("terrier_gales", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_irlandes {
+            get {
+                object obj = ResourceManager.GetObject("terrier_irlandes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_norwich {
+            get {
+                object obj = ResourceManager.GetObject("terrier_norwich", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_sedoso_australiano {
+            get {
+                object obj = ResourceManager.GetObject("terrier_sedoso_australiano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] terrier_tibetano {
+            get {
+                object obj = ResourceManager.GetObject("terrier_tibetano", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] toy_terrier_ingles {
+            get {
+                object obj = ResourceManager.GetObject("toy_terrier_ingles", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] vallhund_sueco {
+            get {
+                object obj = ResourceManager.GetObject("vallhund_sueco", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] west_highland_white_terrier {
+            get {
+                object obj = ResourceManager.GetObject("west_highland_white_terrier", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] whippet {
+            get {
+                object obj = ResourceManager.GetObject("whippet", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] xoloitzcuintle {
+            get {
+                object obj = ResourceManager.GetObject("xoloitzcuintle", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        public static byte[] yorkshire_terrier {
+            get {
+                object obj = ResourceManager.GetObject("yorkshire_terrier", resourceCulture);
                 return ((byte[])(obj));
             }
         }

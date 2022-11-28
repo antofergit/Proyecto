@@ -109,3 +109,6 @@ C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Recursos
 C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Recursos\UserControls\ItemMascota.baml
 C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Windows\wEditarCliente.g.cs
 C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Windows\wEditarCliente.baml
+C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Windows\wNuevaMascota.g.cs
+C:\Users\antof\source\repos\PelcanApp\PelcanApp\obj\Debug\netcoreapp3.1\Windows\wNuevaMascota.baml
+C:\Users\antof\source\repos\PelcanApp\PelcanApp\bin\Debug\netcoreapp3.1\Windows\Razas\bichon_frise.jpg
