@@ -124,7 +124,7 @@
                 </Viewbox>
                 <TextBox Padding="7" Height="30" Grid.Column="1" x:Name="txtBuscarCliente" 
                          VerticalAlignment="Center"
-                         Foreground="{StaticResource Color.Oscuro}">
+                         Foreground="{StaticResource Color.Oscuro}" TextChanged="txtBuscarCliente_TextChanged">
                     
                 </TextBox>
                 <Button Height="30" Grid.Column="2" x:Name="btnBorrarBusqueda" 

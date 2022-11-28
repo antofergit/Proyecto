@@ -49,13 +49,13 @@ namespace PelcanApp.Pages
             
         }
 
-        public void MostrarClientes()
+        public void MostrarClientes(string like = null)
         {
             //Vaciamos el Grid que contiene el listado de clientes
             GridUsuario.Children.Clear();
 
-            //Obtenemos un listado completo de todos los clientes almacenados en la base datos
-            Respuesta respuesta = DataClientes.MostrarClientes();
+            //Obtenemos un listado completo de todos los clientes almacenados en la base de datos
+            Respuesta respuesta = DataClientes.MostrarClientes(like);
             List<object> listaClientes = respuesta.ListaObjetos;
 
             foreach (Cliente cliente in listaClientes)
@@ -70,6 +70,13 @@ namespace PelcanApp.Pages
 
                 GridUsuario.Children.Add(item);
             }
+        }
+
+        private void txtBuscarCliente_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox objeto = sender as TextBox;
+            MostrarClientes(objeto.Text);
+
         }
     }
 }

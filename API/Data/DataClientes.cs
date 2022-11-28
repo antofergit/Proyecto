@@ -14,10 +14,18 @@ namespace API.Data
     public static class DataClientes 
     {
 
-        public static Respuesta MostrarClientes()
+        public static Respuesta MostrarClientes(string like = null)
         {
             Respuesta respuesta = new Respuesta();
-            string consulta = "SELECT * FROM Cliente";
+            string consulta;
+            if (string.IsNullOrEmpty(like))
+            {
+                consulta = "SELECT * FROM Cliente";
+            }
+            else
+            {
+                consulta = $"SELECT * FROM Cliente WHERE DNI LIKE '%{like}%' OR NombreCompleto LIKE '%{like}%' OR Telefono LIKE '%{like}%'";
+            }
 
             using (SqlConnection con = new SqlConnection(Conexion.Conexion.cadenaConexion))
             {
@@ -68,8 +76,6 @@ namespace API.Data
 
                 return respuesta;
             }
-                
-
             
         }
 
