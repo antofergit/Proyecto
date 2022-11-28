@@ -19,7 +19,7 @@ namespace PelcanApp.Windows
     /// </summary>
     public partial class wNuevaMascota : Window
     {
-        public Dictionary<string,string> Diccionario { get; set; }
+        public Dictionary<string,byte[]> Diccionario { get; set; }
 
         public wNuevaMascota()
         {
@@ -27,7 +27,12 @@ namespace PelcanApp.Windows
             List<string> lista = new List<string>() { "Antonio", "Torres", "Fernandez" };
             cmbRazas.ItemsSource = lista;
 
-            imgRaza.Source = Herramientas.DameImagen(Properties.Resources.sin_imagen);
+
+
+            var sinImagen = Properties.Resources.sin_imagen;
+
+            imgRaza.Source = Herramientas.DameImagen(sinImagen);
+
             //Diccionario = CreaDiccionarioImagenes();
 
             //if (Diccionario.Count > 0)
